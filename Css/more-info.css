@@ -1,7 +1,7 @@
 .more-info {
     height: 350px;
     background-color: #1c1d24;
-    padding: 0 0 0 50px;
+    padding: 0 50px;
     position: relative;
     display: flex;
     align-items: center;
@@ -11,10 +11,13 @@
 .more-scroll {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 48%;
+    grid-auto-columns: 45%;
     column-gap: 50px;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0;
 }
 
 .more-img {
