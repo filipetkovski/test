@@ -1,0 +1,136 @@
+.more-info {
+    height: 350px;
+    background-color: #1c1d24;
+    padding: 0 0 0 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.more-scroll {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 48%;
+    column-gap: 50px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.more-img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid gray;
+}
+
+.more1 .more-img {
+    background-image: url(../Images/creativity.jpeg);
+    background-size: cover;
+    background-position-x: 40%;
+}
+
+.more2 .more-img {
+    background-image: url(../Images/time-management.jpeg);
+    background-size: cover;
+}
+
+.more3 .more-img {
+    background-image: url(../Images/comunication.gif);
+    background-position-x: 80%;
+    background-size: cover;
+}
+
+.more1, .more2, .more3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.more-in {
+    margin-left: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.more-in h4, .more-info p {
+    margin: 0;
+    color: white;
+}
+
+.more-in h4 {
+    margin-top: 20px;
+}
+
+.more-in {
+    font-size: 1.2em;
+}
+
+.more-in p {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 20px;
+}
+
+.more-buttons {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.more-buttons button {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.but1 {
+    background-color: #ce8500;
+}
+
+@media (max-width: 1200px) {
+    .more-scroll {
+        grid-auto-columns: 61%;
+    }
+}
+
+@media (max-width: 900px) {
+    .more-scroll {
+        grid-auto-columns: 71%;
+    }
+}
+
+@media (max-width: 700px) {
+    .more-scroll {
+        grid-auto-columns: 81%;
+    }
+}
+
+@media (max-width: 500px) {
+    .more-scroll {
+        grid-auto-columns: 91%;
+    }
+    .more-info {
+        padding: 0 30px;
+    }
+    .more-in h4 {
+        font-size: 0.8em;
+    }
+    .more-in p {
+        font-size: 0.6em;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .more-scroll {
+        grid-auto-columns: 100%;
+    }
+    .more-info {
+        padding: 0 20px;
+    }
+}
