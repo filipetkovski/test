@@ -134,7 +134,7 @@ function scrolll() {
     let scroll = document.querySelector(".more2")
     let value1 = scroll.clientWidth;
     let left = document.querySelector(".more-scroll");
-    left.scrollBy( 1600 , 0);
+    left.scrollBy( 250 , 0);
 
     leftButton.style.backgroundColor = "white";
     rightButton.style.backgroundColor = "#ce8500";
@@ -145,9 +145,9 @@ function scrollr() {
     let scroll = document.querySelector(".more2")
     value1 = scroll.clientWidth;
     let right = document.querySelector(".more-scroll");
-    right.scrollBy( -1600, 0);
+    right.scrollBy( -250, 0);
 
-    leftButton.style.backgroundColor = "#ce8500";
+    leftButton.style.backgroundColor = "green";
     rightButton.style.backgroundColor = "white";
 }
 

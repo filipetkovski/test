@@ -124,7 +124,7 @@ header div {
         height: 0;
         z-index: -1;
 
-        background-color: rgba(30,30,30,0.92);
+        background-color: #1c1d24;
         box-shadow: none;
         text-shadow: none;
         display: flex;
@@ -132,7 +132,6 @@ header div {
         padding-top: 100px;
         transition: top 2s ease 0s;
         opacity: 0;
-
     }
 }
 
