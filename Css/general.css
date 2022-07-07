@@ -7,6 +7,20 @@ body {
     background-repeat: no-repeat;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1d24;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ce8500;
+    border-radius: 20px;
+}
+
 html {
 scroll-behavior: smooth;
 }

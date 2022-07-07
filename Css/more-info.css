@@ -7,7 +7,6 @@
     align-items: center;
 }
 
-
 .more-scroll {
     display: grid;
     grid-auto-flow: column;
@@ -17,19 +16,7 @@
     scroll-behavior: smooth;
     padding-bottom: 10px;
 }
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
 
-::-webkit-scrollbar-track {
-    background: #1c1d24;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #ce8500;
-    border-radius: 20px;
-}
 
 .more-img {
     width: 300px;
