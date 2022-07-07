@@ -147,7 +147,7 @@ function scrollr() {
     let right = document.querySelector(".more-scroll");
     right.scrollBy( -250, 0);
 
-    leftButton.style.backgroundColor = "green";
+    leftButton.style.backgroundColor = "#ce8500";
     rightButton.style.backgroundColor = "white";
 }
 
