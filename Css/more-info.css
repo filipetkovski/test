@@ -15,9 +15,20 @@
     column-gap: 50px;
     overflow-x: auto;
     scroll-behavior: smooth;
+    padding-bottom: 10px;
 }
 ::-webkit-scrollbar {
-    width: 0;
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1d24;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ce8500;
+    border-radius: 20px;
 }
 
 .more-img {
@@ -72,26 +83,6 @@
     font-size: 0.8em;
     color: gray;
     margin-top: 20px;
-}
-
-.more-buttons {
-    position: absolute;
-    bottom: 25px;
-    left: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-}
-.more-buttons button {
-    width: 13px;
-    height: 13px;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.but1 {
-    background-color: #ce8500;
 }
 
 @media (max-width: 1200px) {
