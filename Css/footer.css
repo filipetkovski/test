@@ -26,7 +26,6 @@
 }
 
 #footer .fb:hover, #footer .insta:hover, #footer .linkedin:hover, #footer .twitter:hover {
-    margin: 0;
     transform: none;
 }
 

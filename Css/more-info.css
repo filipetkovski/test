@@ -10,7 +10,7 @@
 .more-scroll {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 45%;
+    grid-auto-columns: 48%;
     column-gap: 50px;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -114,3 +114,4 @@
         padding: 0 20px;
     }
 }
+

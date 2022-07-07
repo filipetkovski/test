@@ -19,7 +19,7 @@
     transition: 0.5s;
 }
 
-.contact-left a:hover {
+.contact-left:hover a {
     transform: translateY(10px);
     font-size: 1.6em;
     padding-bottom: 5px;

@@ -3,7 +3,6 @@ function hamburgerClick() {
     const nav = document.querySelector(".menu-list");
     const navbar = document.querySelector(".menu-list ul");
     const hamburger = document.querySelector(".menu-button");
-    const social = document.querySelector("#social-page");
 
     hamburger.style.opacity = '0';
 
@@ -14,15 +13,12 @@ function hamburgerClick() {
     nav.style.transitionDuration = 'ease-in-out';
     nav.style.top = '0';
     navbar.style.display = 'flex';
-
-    social.style.display = 'none';
 }
 
 function closeHamburger() {
     const nav = document.querySelector(".menu-list");
     const navbar = document.querySelector(".menu-list ul");
     const hamburger = document.querySelector(".menu-button");
-    const social = document.querySelector("#social-page");
 
     hamburger.style.opacity = '1';
 
@@ -30,8 +26,6 @@ function closeHamburger() {
     navbar.style.display = 'none';
     nav.style.zIndex = '-1';
     nav.style.height = '0';
-
-    social.style.display = 'unset';
 }
 
 //Scrolling portfolio

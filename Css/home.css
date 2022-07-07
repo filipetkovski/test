@@ -54,15 +54,18 @@
     justify-content: center;
 }
 
+.fb, .insta, .linkedin, .twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
 .fb:hover, .insta:hover, .linkedin:hover, .twitter:hover {
     border-radius: 100px;
     transform: translateY(-10px);
     color: #ce8500;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px;
 }
 
 #home #social-menu {
