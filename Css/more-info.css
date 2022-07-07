@@ -12,7 +12,7 @@
     grid-auto-flow: column;
     grid-auto-columns: 45%;
     column-gap: 50px;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
     padding-bottom: 10px;
 }
@@ -157,6 +157,5 @@
     .arrow-buttons {
         display: none;
     }
-)
 }
 
