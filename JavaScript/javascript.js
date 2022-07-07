@@ -118,6 +118,53 @@ function openProduct() {
     conprojects.style.display = "none";
     consocial.style.display = "none";
     conproduct.style.display = "grid";
+}
 
+
+//Arrow buttons
+function scrolll() {
+    const element = outerWidth;
+    let value1;
+
+    if(element>899 && element<1201) {
+        value1 = (element-600);
+    }
+    else if(element>701 && element<900) {
+        value1 =  (element-400);
+    }
+    else if(element>499 && element<700) {
+        value1 =  (element-150);
+    }
+    else if(element>460 && element<500) {
+        value1 = (element-100);
+    }
+    else {
+        value1 = element+10;
+    }
+
+    let left = document.querySelector(".more-scroll");
+    left.scrollBy(value1, 0);
+}
+function scrollr() {
+    const element = outerWidth;
+    let value1;
+
+    if(element>899 && element<1201) {
+        value1 = (element-500);
+    }
+    else if(element>701 && element<900) {
+        value1 = (element-400);
+    }
+    else if(element>499 && element<700) {
+        value1 =  (element-150);
+    }
+    else if(element>460 && element<500) {
+        value1 = (element-100);
+    }
+    else {
+        value1 = element+10;
+    }
+    let right = document.querySelector(".more-scroll");
+    right.scrollBy(-value1, 0);
 }
 
