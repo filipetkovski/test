@@ -194,9 +194,6 @@
     }
 }
 
-@media (max-width: 1050px) {
-}
-
 @media (max-width: 900px) {
     .container11, .container44, .container22, .container33 {
         grid-template-columns: 1fr;
@@ -207,6 +204,10 @@
     }
     .con1 {
         width: 300px;
+    }
+    .portfolio-header + p {
+        font-size: 0.9em;
+        margin: 0;
     }
 }
 
