@@ -20,7 +20,6 @@
 }
 
 .contact-left:hover a {
-    transform: translateY(10px);
     font-size: 1.6em;
     padding-bottom: 5px;
     color: orange;
@@ -91,9 +90,6 @@
         width: 450px;
         height: 200px;
     }
-    .contact-left a:hover {
-        font-size: 1.3em;
-    }
     .contact-left p {
         font-size: 1.2em;
         margin-bottom: 30px;
@@ -103,6 +99,9 @@
     }
     .contact-left a {
         font-size: 1.2em;
+    }
+    .contact-left:hover a {
+        font-size: 1.3em;
     }
 }
 
@@ -166,9 +165,6 @@
     .contact-left a {
         font-size: 1em;
     }
-    .contact-left a:hover {
-        font-size: 1.1em;
-    }
     .contact-right h3 {
         font-size: 1.6em;
         width: 150px;
@@ -176,6 +172,9 @@
     .contact-right p {
         font-size: 0.8em;
         width: 340px;
+    }
+    .contact-left:hover a {
+        font-size: 1.1em;
     }
 }
 
@@ -202,9 +201,6 @@
     .contact-left a {
         font-size: 0.6em;
     }
-    .contact-left a:hover {
-        font-size: 0.7em;
-    }
     .contact-right h3 {
         font-size: 1.3em;
         width: 125px;
@@ -212,6 +208,9 @@
     .contact-right p {
         font-size: 0.6em;
         width: 220px;
+    }
+    .contact-left:hover a {
+        font-size: 0.7em;
     }
 }
 
@@ -230,9 +229,6 @@
     .contact-left a {
         font-size: 0.5em;
     }
-    .contact-left a:hover {
-        font-size: 0.6em;
-    }
     .contact-right h3 {
         font-size: 1.2em;
         width: 115px;
@@ -240,5 +236,8 @@
     .contact-right p {
         font-size: 0.5em;
         width: 215px;
+    }
+    .contact-left:hover a {
+        font-size: 0.6em;
     }
 }
